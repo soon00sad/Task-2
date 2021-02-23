@@ -3,8 +3,6 @@
 #include "../OperationsCreator.h"
 #include "../CalculationExceptions.h"
 
-#define _USE_MATH_DEFINES
-
 class Cos : public CalculationOperations {
 public:
     void run(std::list<std::string> &args, ExecutionContext &executionContext) override {
